@@ -1,0 +1,78 @@
+#grad1 {
+  height: 900px;
+  background-color: rgb(82, 139, 192);
+  background-image: linear-gradient(rgb(233, 242, 245), rgb(126, 177, 180));
+  padding-top: 2%;
+}
+
+.lbox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  width: 90%;
+  border: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(66, 88, 110) 0px 20px 30px -10px;
+}
+
+.sidebox {
+  background-color: rgb(82, 139, 192);
+  border-radius: 50px;
+  width: 350px;
+  border: 1px solid rgb(199, 225, 252);
+  padding-bottom: 1%;
+}
+
+.image {
+  border: 3px rgb(82, 139, 192);
+  border-radius: 500px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  width: 50%;
+  cursor: pointer;
+}
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  width: 65%;
+}
+
+.button {
+  color: white;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 50px;
+  font-size: x-large;
+  text-align: left;
+  padding: 5%;
+}
+.button:hover {
+  background-color: rgb(46, 112, 173);
+  cursor: pointer;
+}
+.button:focus {
+  background-color: rgb(250, 253, 255);
+  color: rgb(41, 93, 141);
+  padding-left: 10%;
+}
+
+.box1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  max-width: 1350px;
+  border: transparent;
+  text-align: left;
+  position: relative;
+  margin-left: 450px;
+  margin-top: -790px;
+  padding-right: 30px;
+}
+
+li {
+  list-style: none;
+}
